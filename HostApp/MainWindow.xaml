@@ -5,7 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:HostApp"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title=".NET Upate Repro"
+    Title=".NET Update Reproduction"
     Width="520"
     Height="320"
     mc:Ignorable="d">

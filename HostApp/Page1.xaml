@@ -16,7 +16,7 @@
                 FontSize="20"
                 FontWeight="Bold"
                 Text="Page 1 (Pre-update)" />
-            <TextBlock Margin="0,8,0,12" Text="Leave this page open. Apply the .NET Desktop Runtime update. Then click 'Go to Page 2'." />
+            <TextBlock Margin="0,8,0,12" Text="Leave this page open. Apply the '.NET [version] Update for x64 Client' update. Then click 'Go to Page 2'." />
             <Button
                 Width="140"
                 Click="OnGo"
