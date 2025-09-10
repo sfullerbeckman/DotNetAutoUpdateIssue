@@ -8,17 +8,11 @@
     d:DesignHeight="260"
     d:DesignWidth="120"
     mc:Ignorable="d">
-    <Border
-        Padding="12"
-        BorderBrush="#999"
-        BorderThickness="1"
-        CornerRadius="8">
-        <StackPanel>
-            <TextBlock
-                FontSize="16"
-                FontWeight="Bold"
-                Text="TinyControl from TinyPart.dll" />
-            <TextBlock x:Name="VersionText" Margin="0,6,0,0" />
-        </StackPanel>
-    </Border>
+    <StackPanel>
+        <TextBlock
+            FontSize="16"
+            FontWeight="Bold"
+            Text="TinyControl from TinyPart.dll" />
+        <TextBlock Margin="0,6,0,0" Text="You should only see this if the TinyPart assembly is loaded" />
+    </StackPanel>
 </UserControl>
